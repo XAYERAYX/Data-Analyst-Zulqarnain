@@ -155,6 +155,7 @@ Data Ingestion
 
 	•	Created three S3 buckets: ucw-hr-zul-raw, ucw-hr-zul-transform, ucw-hr-zul-curated.
 	•	Placed 3 CSVs in the they are respective folders inside raw bucket.
+ 
  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
  <img width="1512" alt="image" src="https://github.com/user-attachments/assets/562d044b-e7bd-472c-967f-9ffe301aa2b2" />
@@ -175,6 +176,7 @@ Data Cleaning & Transformation
 
 	•	Used DataBrew recipes: remove punctuation, fix date columns, fill missing cost with 0 or “N/A.”
 	•	Output to the transform S3 bucket.
+ 
  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
  <img width="1512" alt="Screenshot 2025-03-25 at 3 20 15 PM" src="https://github.com/user-attachments/assets/de75770f-3fe8-4ee3-a7e2-8a890e193134" />
@@ -184,11 +186,13 @@ Glue Crawler & Catalog
 
 	•	Created a crawler (“HR-ZUL-crawler”) to scan the transform bucket.
 	•	Verified the schema in AWS Glue Data Catalog.
+ 
  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
  <img width="1512" alt="image" src="https://github.com/user-attachments/assets/196fc0e5-63e8-4136-ba4f-7f50e5c9ac00" />
 
  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+ 
 Join
 
  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
@@ -196,6 +200,7 @@ Join
  <img width="1512" alt="image" src="https://github.com/user-attachments/assets/b21dfb51-e67f-495d-a9a1-dcb6c1c0845d" />
 
  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+ 
 Glue ETL Job
 
 	•	Visually mapped columns from employees/activities/financial to produce a curated, merged table.
@@ -206,10 +211,12 @@ Glue ETL Job
  <img width="1512" alt="Screenshot 2025-03-25 at 3 21 02 PM" src="https://github.com/user-attachments/assets/1dbfa345-b550-4c85-943c-6f6741fa577b" />
 
  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+ 
  Analytics (SQL in Athena)
  
 	•	Ran queries such as SELECT department, COUNT(*) FROM hr_training GROUP BY department;
 	•	Explored cost patterns or monthly participation rates.
+ 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
   <img width="1512" alt="Screenshot 2025-03-25 at 3 22 28 PM" src="https://github.com/user-attachments/assets/8c774f2b-437c-4920-a14b-69bfe687ae33" />
@@ -220,6 +227,7 @@ Security & Replication
 
 	•	Created a KMS CMK to encrypt S3 objects by default.
 	•	Enabled versioning and cross-region replication from ucw-hr-zul-raw to a backup bucket (e.g., “ucw-hr-backup”).
+ 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
  <img width="1512" alt="Screenshot 2025-03-25 at 3 23 37 PM" src="https://github.com/user-attachments/assets/035235ad-ddd8-4990-b936-c99960d417b8" />
@@ -235,14 +243,15 @@ Security & Replication
  <img width="1512" alt="Screenshot 2025-03-25 at 3 23 04 PM" src="https://github.com/user-attachments/assets/20c6c8dd-da62-467a-9dd9-8202869dca4b" />
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+  
 Data Quality
 
 	•	Employed Glue data quality rules for checking no cost < 0, ensuring valid date ranges.
 	•	“Pass” vs. “Fail” routing to separate subfolders.
+ 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
  <img width="1512" alt="Screenshot 2025-03-25 at 3 24 11 PM" src="https://github.com/user-attachments/assets/594cead6-615e-4c8b-a8b6-4f090f0d1b41" />
-
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
@@ -250,10 +259,12 @@ Data Quality
  <img width="1512" alt="Screenshot 2025-03-25 at 3 24 02 PM" src="https://github.com/user-attachments/assets/434e9a2a-73eb-4336-8e2b-2eeaba794588" />
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+  
 Cost Optimization
 
 	•	Activated S3 lifecycle policies to move older data to infrequent access or Glacier.
 	•	Monitored usage with CloudWatch alarms.
+ 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
  <img width="1512" alt="image" src="https://github.com/user-attachments/assets/95bc33b7-6bed-40e7-a3aa-78d57dc5589e" />
