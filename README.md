@@ -476,7 +476,7 @@ CloudWatch Monitoring
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
   
-Course Completion Badge
+**Course Completion Badge**
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
@@ -529,3 +529,4 @@ Key Achievements:
  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 This project is a small reflection of a big journey, made possible through kindness, patience, and the guidance of **Dr. Mahmood Mortazavi Dehkordi**, whose mentorship has been truly invaluable.
+
