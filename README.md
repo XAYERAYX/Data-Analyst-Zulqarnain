@@ -506,7 +506,7 @@ Course Completion Badge
 	5.	Athena queries and results
 	6.	Data Quality pass/fail outputs
 	7.	Cost analysis or lifecycle policies for older data
- 	8.      Course Completion Badge
+
 
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
