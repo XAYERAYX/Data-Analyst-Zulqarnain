@@ -1,6 +1,6 @@
                                          Cloud Computing Portfolio
 					 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Author: Muhammad Zulqarnain Shahzad (2306553)
 
@@ -10,11 +10,11 @@ Professor: Dr. Mahmood Mortazavi Dehkordi
 
 Institution: University Canada West
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 This portfolio was prepared as part of the MBA Cloud Computing project at University Canada West, under the distinguished mentorship and insightful guidance of **Dr. Mahmood Mortazavi Dehkordi**.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Table of Contents
 
@@ -166,6 +166,7 @@ Data Profiling (DataBrew)
 
 	•	Built a DataBrew project.
 	•	Verified missing data, textual anomalies.
+ 
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
  <img width="1512" alt="image" src="https://github.com/user-attachments/assets/3746ac34-2832-4135-80c1-459669fad9bb" />
@@ -182,6 +183,7 @@ Data Cleaning & Transformation
  <img width="1512" alt="Screenshot 2025-03-25 at 3 20 15 PM" src="https://github.com/user-attachments/assets/de75770f-3fe8-4ee3-a7e2-8a890e193134" />
 
  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+ 
 Glue Crawler & Catalog
 
 	•	Created a crawler (“HR-ZUL-crawler”) to scan the transform bucket.
@@ -206,6 +208,7 @@ Glue ETL Job
 	•	Visually mapped columns from employees/activities/financial to produce a curated, merged table.
 	•	Summarized or aggregated cost totals per employee or per month.
 	•	Output to ucw-hr-zul-curated.
+ 
  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
  <img width="1512" alt="Screenshot 2025-03-25 at 3 21 02 PM" src="https://github.com/user-attachments/assets/1dbfa345-b550-4c85-943c-6f6741fa577b" />
@@ -272,6 +275,7 @@ Cost Optimization
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 CloudWatch Monitoring
+
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 <img width="1512" alt="Screenshot 2025-03-25 at 3 24 20 PM" src="https://github.com/user-attachments/assets/70816831-5abb-4a9b-a058-6aae59e023e6" />
@@ -359,6 +363,7 @@ Data Ingestion
  
 	•	Created S3 buckets: city-van-zul-raw, city-van-zul-transform, city-van-zul-curated.
 	•	Placed the CSV in a subfolder “consulting-management” under raw.
+ 
  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
  
 <img width="1512" alt="image" src="https://github.com/user-attachments/assets/b7d11d5b-1bbe-4d73-ae2d-1cc670969b50" />
@@ -369,54 +374,63 @@ Data Profiling
 
 	•	Used DataBrew to create a project, e.g. “ConsultingMgmtProjectZUL.”
 	•	Found missing license fees or “IssuedDate” issues.
+ 
  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
   <img width="1512" alt="image" src="https://github.com/user-attachments/assets/c5fa7d67-4faa-4007-8a38-c7e0dc1e107d" />
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+  
 Data Cleaning
 
 	•	DataBrew recipe: remove special characters from “BusinessName,” unify date formats, fill missing license fees as “N/A.”
 	•	Output to the transform bucket.
+ 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
   <img width="1512" alt="image" src="https://github.com/user-attachments/assets/87fc253a-8750-413e-9681-b0583c5f5135" />
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-  
  
 AWS Glue Crawler & Catalog
 
 	•	Created a crawler “CityVanConsultingCrawler” pointing to transform bucket.
 	•	Verified table schema in AWS Glue data catalog.
+ 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
   <img width="1512" alt="image" src="https://github.com/user-attachments/assets/7e2ac21c-663e-42b5-9976-c57fdcb61b5d" />
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+  
 ETL & Summaries
 
 	•	Potentially joined with a small reference table for “Business Type” if available.
 	•	Aggregated license counts by “Status,” “IssuedYear,” etc.
 	•	Output curated summary to city-van-zul-curated.
+ 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
   <img width="1512" alt="image" src="https://github.com/user-attachments/assets/6ed53b60-e48f-4ad1-a15d-2feec105db42" />
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+  
 Analysis
 
 	•	Used AWS Athena queries, e.g. SELECT Status, COUNT(*) FROM consulting_management GROUP BY Status;
 	•	Studied monthly issuance for descriptive/diagnostic insights.
+ 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
   <img width="1512" alt="image" src="https://github.com/user-attachments/assets/e1118d6b-54cd-4c90-9a7d-8f63a5483c44" />
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+  
 Security / Replication
 
 	•	KMS encryption, IAM roles limiting who can read the curated bucket.
 	•	Bucket versioning + cross-region replication to “city-van-zul-backup.”
+ 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
   <img width="1512" alt="image" src="https://github.com/user-attachments/assets/0b3d614c-27bb-4d85-878a-966a8a771691" />
@@ -426,10 +440,12 @@ Security / Replication
   <img width="1512" alt="image" src="https://github.com/user-attachments/assets/fc87c3c7-467a-493c-ad08-9a70d523e43b" />
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+  
 Data Quality
 
 	•	Glue data quality checks for valid (non-empty) LicenseNumber, date being in a plausible range.
 	•	Separated “passed” vs. “failed” records to different transform subfolders.
+ 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
   <img width="1512" alt="image" src="https://github.com/user-attachments/assets/3f2eb3ab-5a14-4b80-8d2d-7209dca85ba2" />
