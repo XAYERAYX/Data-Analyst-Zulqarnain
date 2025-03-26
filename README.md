@@ -475,6 +475,19 @@ CloudWatch Monitoring
 <img width="1512" alt="image" src="https://github.com/user-attachments/assets/eaf0a9a5-b9b6-4111-9c09-9c0f186dc632" />
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+  
+Course Completion Badge
+
+  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
+<img width="1512" alt="Screenshot 2025-03-25 at 11 00 26 PM" src="https://github.com/user-attachments/assets/de262c96-54f1-4b58-88e2-6ba902ff7220" />
+
+  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
+![aws-academy-graduate-aws-academy-cloud-foundations-2](https://github.com/user-attachments/assets/8e776124-d942-43c4-b0aa-193c3eafca58)
+
+  ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 4.8. Tools and Technologies (City VAN)
 
@@ -493,6 +506,7 @@ CloudWatch Monitoring
 	5.	Athena queries and results
 	6.	Data Quality pass/fail outputs
 	7.	Cost analysis or lifecycle policies for older data
+        8.      Course Completion Badge
 
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
