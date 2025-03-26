@@ -507,7 +507,6 @@ CloudWatch Monitoring
 	6.	Data Quality pass/fail outputs
 	7.	Cost analysis or lifecycle policies for older data
 
-
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 8. Conclusion
