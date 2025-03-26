@@ -1,6 +1,6 @@
                                          Cloud Computing Portfolio
 					 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Author: Muhammad Zulqarnain Shahzad (2306553)
 
@@ -10,11 +10,11 @@ Professor: Dr. Mahmood Mortazavi Dehkordi
 
 Institution: University Canada West
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 This portfolio was prepared as part of the MBA Cloud Computing project at University Canada West, under the distinguished mentorship and insightful guidance of **Dr. Mahmood Mortazavi Dehkordi**.
 
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 Table of Contents
 
@@ -459,13 +459,17 @@ Data Quality
 <img width="1512" alt="image" src="https://github.com/user-attachments/assets/938a4ecf-a67c-4aa7-ac10-56006a5ff239" />
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+		
 KMS Key Setup
+		
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 <img width="1512" alt="image" src="https://github.com/user-attachments/assets/a013e43c-26af-473e-9e3e-75c97681cb51" />
 
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+		
 CloudWatch Monitoring
+		
   ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 <img width="1512" alt="image" src="https://github.com/user-attachments/assets/eaf0a9a5-b9b6-4111-9c09-9c0f186dc632" />
